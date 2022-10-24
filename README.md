@@ -4,11 +4,11 @@ Harshita Patel Velpula, ufid: 2765-9435</br>
 Vishesha Sadu, ufid: 2956-6305
 
 ## RUNNING THE PROGRAM:
-- Create a node : erl -name \<username>\@\<IPAddress>\` 
+- Create a node : `erl -name <username>@<IPAddress>` 
 
 - Compile the chordserver file : `c(chordserver.erl).` 
 
-- Begin the chordserver in the node : `chordserver:start(numNodes, numRequests).` 
+- Run start method in chordserver module with appropriate arguments : `chordserver:start(numNodes, numRequests).` 
 
 Where, numRequests is the number of requests that each peer must make, and            numNodes is the number of peers that must be generated in the peer-to-peer system.
 
